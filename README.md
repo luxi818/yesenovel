@@ -13,9 +13,6 @@
 ## GitHub Pages 部署
 1. 新建 GitHub 公开仓库。
 2. 解压 ZIP，将所有文件和文件夹上传到仓库根目录。
-3. 打开 Settings → Pages。
-4. Build and deployment 选择 Deploy from a branch。
-5. Branch 选择 `main`，目录选择 `/ (root)`，保存并等待发布。
 
 ## 修改作品
 编辑 `data/books.js` 的 `window.NIGHT_BOOKS` 数组。每本书的 `id` 必须唯一，首页卡片会自动链接到 `detail.html?id=对应id`。封面由 CSS 渐变生成，无需额外图片。
